@@ -369,7 +369,7 @@ nav .custom-collapse ul {
     margin: 5px 0;
     transition: color 0.3s ease;
 }
- 
+
 .footer-link:hover {
     color: #1da1f2;
 }
@@ -584,6 +584,24 @@ footer .social-media-section a {
     padding: 15px 25px !important;
     border-radius: 25px;
 }
+
+.table-description,
+td {
+    font-size: 15px !important;
+}
+
+.tender-table .table-description a {
+    color: rgb(51, 204, 103);
+}
+
+
+@media (max-width: 1024px) {
+    .tender-table .tender-apply-now .news-read-more-btn{
+        white-space: nowrap;
+        font-size: 14px;
+    }
+}
+
 
 @media (max-width:426px) {
     .reactoutInfo ul {
